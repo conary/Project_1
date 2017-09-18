@@ -19,8 +19,7 @@ class Song(object):
             self.track_url = None
 
     def __str__(self):
-        return "{} by {} on {} whose URL is {}".
-        format(
+        return "{} by {} on {} whose URL is {}".format(
             self.track,
             self.artist,
             self.album,
@@ -28,8 +27,7 @@ class Song(object):
             )
 
     def __repr__(self):
-        return "{} | Explicit: {}".
-        format(
+        return "{} | Explicit: {}".format(
             self.track,
             self.explicit
             )
